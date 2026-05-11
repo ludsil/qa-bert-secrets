@@ -5,4 +5,4 @@ metadata:
   namespace: d930dmic
 type: Opaque
 stringData:
-  POSTGRES_PASSWORD: qabert-t3-throwaway
+  POSTGRES_PASSWORD: todo
