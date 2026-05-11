@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pg-creds
+  namespace: uvm7a22i
+type: Opaque
+stringData:
+  POSTGRES_PASSWORD: hn
