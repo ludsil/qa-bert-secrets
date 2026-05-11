@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pg-creds
+  namespace: d930dmic
+type: Opaque
+stringData:
+  POSTGRES_PASSWORD: qabert-t3-throwaway
