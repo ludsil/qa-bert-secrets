@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pg-creds
+  namespace: jab9prmj
+type: Opaque
+stringData:
+  POSTGRES_PASSWORD: hn
