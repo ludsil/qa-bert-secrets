@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pg-creds
+  namespace: i1up5r5r
+type: Opaque
+stringData:
+  POSTGRES_PASSWORD: c2pwd
